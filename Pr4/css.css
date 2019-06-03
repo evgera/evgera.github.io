@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+.main-page {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+/* Первое задание */
+#header-1 {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: #292929;
+}
+
+.text-name {
+  font-size: 32px;
+  top: calc(50% - 16px);
+  color: rgb(255, 255, 255);
+}
+
+#content-1 {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#stuff-1 {
+  height: 500px;
+  background: #a879c8;
+}
+
+#main-content-1 {
+  height: 800px;
+  background: #199ac9;
+}
+
+#navigation-1 {
+  height: 600px;
+  background: #66cd70;
+}
+
+#footer-1 {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: #292929;
+}
+
+.text-1 {
+  color: #fff;
+  padding: 50px 5px;
+  font-size: 32px;
+  top: calc(50% - 16px);
+}
+
+.img-1 {
+  width: 100%;
+}
+
+/* Второе задание */
+#content-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-rows: 80px 300px 200px 40px 80px;
+
+}
+#header-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #292929;
+}
+
+#main-content-2 {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #1f85b1;
+}
+
+#navigation-2 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background: #31cc46;
+}
+
+#stuff-2 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  background: #9f2dcc;
+}
+
+#footer-2 {
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #292929;
+}
+
+.text-name-2 {
+  position: relative;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  top: calc(50% - 16px);
+  color: #fff;
+}
+
+.text-2 {
+  position: relative;
+  font-size: 16px;
+  top: calc(50% - 8px);
+  margin: 0 50px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+/* Третье задание */
+#zadanie-3 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  background: #bacdb4;
+}
+
+@media (max-width: 1320px) {
+  #zadanie-3 {background: #c8dd6a;}
+}
+
+@media (max-width: 880px) {
+  #zadanie-3 {background: #337a6b;}
+}
+.img-3-1, .img-3-2, .img-3-3,
+.img-3-4, .img-3-5, .img-3-6 {
+  width: 400px;
+  height: 280px;
+  background: black;
+  margin: 20px;
+}
+
+.text-3 {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+$bcolor: #292929;
+%yellowColor{
+    color: yellow;
+}
+#header-1 {
+    background: $bcolor;
+    .text-name{
+        @extend %yellowColor;
+    }
+}
+#content-1{
+    $width: 100%;
+    $column: $width/4;
+    #stuff-1 {
+        width: 1*$column;
+    }
+    #main-content-1{
+        width: 2*$column;
+    }
+    #navigation-1{
+        width: 1*$column;
+    }
+}
+@mixin example(){
+    position: inherit;
+    font-weight: bold;
+    text-align: center;
+} 
+.text-name {
+    @include example(); 
+}
+.text-1 {
+    @include example(); 
+}

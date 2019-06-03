@@ -1,0 +1,32 @@
+#header-1 .text-name {
+  color: yellow;
+}
+
+#header-1 {
+  background: #292929;
+}
+
+#content-1 #stuff-1 {
+  width: 25%;
+}
+
+#content-1 #main-content-1 {
+  width: 50%;
+}
+
+#content-1 #navigation-1 {
+  width: 25%;
+}
+
+.text-name {
+  position: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-1 {
+  position: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+/*# sourceMappingURL=SASS.css.map */

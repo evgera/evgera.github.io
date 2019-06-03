@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9d2525;
+}
+#content-1 {
+    display: flex;
+    width: 100%;
+}
+#logo{
+    height: 200px;
+    background: url(верх.png) no-repeat;
+    background-size: 100%;
+}
+.nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+.f1{
+    width: 5em;
+    padding:10px;
+    background-color: #9d2525;
+    text-align: center;
+    border-radius: 70%;
+    font-size: 200%;
+}
+a{
+    text-decoration: none;
+    color:#fff386;
+}
+.f1:hover { 
+    box-shadow: 0 15px 20px #613403; 
+    color: white; 
+    transform: translateY(-7px); 
+    }
+#main1{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: #9d2525;
+    width: 100%;
+}
+.text{
+    position: relative;
+    font-size: 24px;
+    margin: 0 40px;
+    color: #613403;
+    padding: 20px;
+    font-weight:bold
+}
+.f2{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.f4{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
+.img-1 {
+    width: 100%;
+    height: 100%;
+  }
+.f3{
+    background-color: #e9d546;
+    border-radius: 5%;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+#footer{
+    height: 170px;
+    background: url(низ.png) no-repeat;
+    background-size: 100%;
+}
+.text1{
+    font-size: 28px;
+    text-align: center;
+    color:#fff386;
+    background-color: #9d2525;
+}
+.foto1{
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+}
+.foto2{
+    width: 600px;
+    height: 430px;
+    margin: 20px;
+}
+.sub{
+    display: inline-block;
+    color: #fff386;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #cf3232 #000 #701a1a;
+    border-radius: 6px;
+    background: linear-gradient(#c72e2e, #9d2525) #E38916;
+    transition: 0.2s;
+} 
+.sub:hover { background: linear-gradient(#d34848, #a11717) rgb(227, 22, 22); }
+.sub:active { background: linear-gradient(#ca4747, #9b1b1b) #E38916; }
